@@ -95,7 +95,7 @@ class ViewController: UIViewController {
 }
 ```
 
-![Demo](Demo/shot.git)
+![Demo](Demo/shot.gif)
 
 
 ## Custome
