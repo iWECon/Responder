@@ -19,7 +19,9 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .target(name: "Responder", dependencies: []),
+        .target(
+            name: "Responder"
+        ),
         .testTarget(name: "ResponderTests", dependencies: ["Responder"]),
     ],
     swiftLanguageVersions: [
