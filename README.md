@@ -36,7 +36,7 @@ class Controller: UIViewController {
 ```
 
 
-```
+```swift
 class View: UIView {
 
     let button = UIButton()
@@ -95,7 +95,7 @@ class ViewController: UIViewController {
 }
 ```
 
-![image](./shot.git)
+![Demo](Demo/shot.git)
 
 
 ## Custome
@@ -115,4 +115,12 @@ extension ListSectionController: Responder {
         }
     }
 }
+```
+
+
+## Install
+
+#### Swift Package Manager
+```swift
+.package(url: "https://github.com/iWECon/Responder", from: "1.0.0")
 ```
